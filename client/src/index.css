@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.button-primary {
+  @apply bg-primary uppercase cursor-pointer text-center text-white font-semibold rounded-md px-5 py-2 items-center;
+}
+
+.button-secondary {
+  @apply bg-primary-dark uppercase cursor-pointer text-center text-white font-semibold rounded-md px-5 py-2 items-center border-2 border-primary;
+}
+
+.button-red {
+  @apply bg-primary-dark uppercase cursor-pointer text-center text-red font-semibold rounded-md px-5 py-2 items-center border-2 border-red;
+}
+
+.button-golden {
+  @apply bg-black uppercase cursor-pointer text-center text-yellow font-semibold rounded-md px-5 py-2 items-center border-2 border-yellow;
+}
