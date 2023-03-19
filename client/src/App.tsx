@@ -1,13 +1,10 @@
-import React from 'react'
-import { Trans } from '@lingui/macro'
+import Router from './core/router/Routes'
 import './App.css'
 
 function App() {
   return (
     <div className='App'>
-      <h1 className=' bg-slate-400'>
-        <Trans>Translation test</Trans>
-      </h1>
+      <Router />
     </div>
   )
 }
